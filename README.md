@@ -16,8 +16,11 @@ The models evaluated include:
 
 .
 ├── figures/ # Visualization results
+
 ├── segmentation_pipeline_v3.ipynb # Main notebook
+
 ├── results_summary.json # Quantitative results
+
 ├── README.md
 
 
@@ -86,7 +89,9 @@ pip install torch torchvision segmentation-models-pytorch matplotlib numpy
 jupyter notebook segmentation_pipeline_v3.ipynb
 
 Update dataset path before running.
+```
+---
 
-Notes
+## Notes
 - Large files (datasets, checkpoints) are excluded
 - SAM2 requires external checkpoint loading
