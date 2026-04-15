@@ -1,0 +1,8 @@
+Ablation,Setting,mIoU,Mean Dice,Pixel Acc
+Backbone,ResNet-18,0.0907,0.1227,0.7681
+Backbone,ResNet-50,0.1186,0.1613,0.8015
+Augmentation,With aug,0.1354,0.1865,0.7604
+Augmentation,Without aug,0.1565,0.2189,0.7985
+Loss,CrossEntropy,0.1572,0.2262,0.7838
+Loss,Dice,0.1662,0.2411,0.5274
+Loss,Combined(CE+Dice),0.1127,0.1606,0.7659

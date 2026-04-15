@@ -1,0 +1,4 @@
+Model,mIoU,Mean Dice,Pixel Acc,HD95 (px),Train Time (min)
+U-Net (ResNet-18),0.181,0.2427,0.8185,31.41,3.5
+DeepLabV3+,0.4393,0.5695,0.8726,19.99,3.9
+SAM2 (zero-shot),0.6773,0.7807,0.922,16.99,N/A
