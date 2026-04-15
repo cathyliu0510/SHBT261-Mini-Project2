@@ -14,13 +14,9 @@ The models evaluated include:
 
 ## Repository Structure
 
-.
-├── figures/ # Visualization results
-
-├── segmentation_pipeline_v3.ipynb # Main notebook
-
-├── results_summary.json # Quantitative results
-
+├── figures/ # Visualization outputs
+├── segmentation_pipeline_v3.ipynb
+├── results_summary.json
 ├── README.md
 
 
@@ -51,27 +47,11 @@ https://www.kaggle.com/datasets/zaraks/pascal-voc-2007
 - HD95
 - Confusion matrix
 
----
-
-## Results
-
-### Quantitative Summary
-See:
-
-results_summary.json
-
----
-
-## Qualitative Results
-
-### Best Predictions
-![Best Results](figures/best_results.png)
-
-### Worst Predictions
-![Worst Results](figures/worst_results.png)
-
-### Model Comparison
-![Comparison](figures/comparison.png)
+### Visualization
+- Mosaic-style qualitative segmentation maps
+- Side-by-side comparisons of input, ground truth, and prediction
+- Top 3 best and top 3 worst results
+- Special attention to the human class due to its complexity
 
 ---
 
@@ -80,16 +60,6 @@ results_summary.json
 - Data augmentation: with vs without
 - Loss function: Cross-Entropy vs Dice
 
----
-
-## How to Run
-
-```bash
-pip install torch torchvision segmentation-models-pytorch matplotlib numpy
-jupyter notebook segmentation_pipeline_v3.ipynb
-
-Update dataset path before running.
-```
 ---
 
 ## Notes
