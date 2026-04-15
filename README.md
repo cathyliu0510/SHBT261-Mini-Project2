@@ -15,8 +15,11 @@ The models evaluated include:
 ## Repository Structure
 
 ├── figures/ # Visualization outputs
+
 ├── segmentation_pipeline_v3.ipynb
+
 ├── results_summary.json
+
 ├── README.md
 
 
